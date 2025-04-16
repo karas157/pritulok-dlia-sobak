@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: #ffcccb;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+section {
+    padding: 20px;
+}
+.welcome-section {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.card button {
+    background: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card button:hover {
+    background: #e68900;
+}
+.about-us {
+    background: #eef;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
